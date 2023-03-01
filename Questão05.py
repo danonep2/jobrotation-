@@ -1,6 +1,3 @@
 texto = input()
-res = ""
-for i in texto:
-    res = i + res
-
-print(res)
+resultado = texto[::-1]
+print(resultado)
